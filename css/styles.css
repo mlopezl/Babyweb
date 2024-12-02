@@ -2,26 +2,50 @@
     list-style: none;
 }
 
-.titulo{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    font-weight: 100;
-    font-size: 17px !important;
-    font-style: italic;
+aside a{
+    text-decoration: none;
+    color: #2b2b2b;
 }
 
-
-.header{
-    min-height: 90px;
+aside:hover a{
+    color: #0d6efd;
 }
 
-.header h1, h2{
+.title{
+    height: 100px;
+}
+
+.title h1{
+    color: #0d6efd;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    font-style: oblique;
 }
 
+aside{
+    height: 100px;
+}
 
-.card img{
-    height: 200px;
+aside{
+    line-height: 100px;
+}
+
+.contenedor{
+    width: 500px;
+}
+
+@media (max-width: 580px){
+    .contenedor{
+        width: 300px;
+    }
+    aside{
+        height: auto;
+        line-height: 40px;
+    }
 }
 
 footer nav p,i{
